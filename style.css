@@ -1,0 +1,92 @@
+header {
+	margin-top: 12px;
+}
+
+body {
+	background-color: #121214;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	color: #ffffff;
+	font-size: 32px;
+	text-align: center;
+	margin: 60px;
+}
+
+div {
+	display: flex;
+	width: 700px;
+	margin: 0 auto;
+}
+
+div.perfil {
+	background-color: #1e1e20;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+    border: 1px solid #1e1e20;
+    border-radius: 8px;
+}
+
+div.perfil:hover {
+    border: 1px solid #ffffffff;
+}
+
+div.perfil img:hover {
+	transform: scale(1.2);
+	transition: 0.5s;
+}
+
+p {
+	color: #9C9C9C;
+	font-size: 14px;
+	position: absolute;
+	margin: 170px 60px;
+}
+
+p.nome {
+    left: 837px;
+}
+
+p:hover{
+    color: #ffffff;
+}
+
+div.add {
+	width: 53px;
+	height: 50px;
+	border-radius: 100%;
+	margin: auto;
+	border: 5px solid #6f6f70;
+	color: #6f6f70;
+}
+
+div span {
+	margin: auto;
+	font-size: 40px;
+}
+
+div.add:hover {
+	color: #ffffff;
+	border: 5px solid #ffffff;
+}
+
+button {
+	color: #ffffff;
+	background-color: #121214;
+	border-radius: 8px;
+	height: 50px;
+	width: 200px;
+	border: 1.5px solid #ffffff;
+	box-sizing: border-box;
+	margin: 60px;
+}
+
+button:hover {
+	color: #000000;
+	background-color: #ffffff;
+}
